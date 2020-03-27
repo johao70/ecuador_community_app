@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Blank Template",
-    "slug": "ecuador_community",
+    "name": "Ecuador Community App",
+    "slug": "ecuador_community_app",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
