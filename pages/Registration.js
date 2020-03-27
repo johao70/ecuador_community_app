@@ -44,10 +44,10 @@ export default class RegistrationScreen extends Component {
                     style={[t.itemsCenter, t.border0, t.borderB2, t.w64, t.mT8]}
                 />
                 <View style={[t.flex, t.flexRow]}>
-                    <TouchableOpacity style={[t.mT8, t.border, t.borderGreen800, t.bgGreen800, t.p2]} onPress={ () => this.props.history.push("")}>
+                    <TouchableOpacity style={[t.mT8, t.border, t.borderYellow700, t.bgYellow600, t.p2]} onPress={ () => this.props.history.push("")}>
                         <Text style={[t.fontBold, t.textWhite]}>REGISTRARME</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={[t.mT8, t.mL8, t.border, t.borderRed800, t.bgRed800, t.p2]} onPress={ () => this.props.history.push("")}>
+                    <TouchableOpacity style={[t.mT8, t.mL8, t.border, t.borderRed700, t.bgRed600, t.p2]} onPress={ () => this.props.history.push("")}>
                         <Text style={[t.fontBold, t.textWhite]}>REGRESAR</Text>
                     </TouchableOpacity>
                 </View>

@@ -14,10 +14,7 @@ export default class App extends Component {
           <Switch>
             <Route exact path="/" component={ LoginScreen } />
             <Route exact path="/registration" component={ RegistrationScreen } />
-            <Route path="/home" component={ DashboardScreen } /> 
-            {/* <Route exact path="/library" component={ virtualLibrary } />
-            <Route path="/reserve" component={ Reserve } /> 
-            <Route path="/detalle" component={ Detalle } />  */}
+            <Route path="/home" component={ DashboardScreen } />
           </Switch>
         </View>
       </NativeRouter>
