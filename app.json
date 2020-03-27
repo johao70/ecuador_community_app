@@ -25,6 +25,13 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.ecuadorcommunity.app",
+      "versionCode": 1,
+      "permissions": [],
+      "icon": "./assets/icon.png"
+    },
+    "description": "Make a social network classified by neighborhoods in which residents can register and see news related to the community, aid and advice to combat covid-19 apart a chat with which they can meet among the inhabitants of the neighborhood and establish communication in this period of quarantine, coming to socialize project agreements, ideas or neighborhood improvements with joint participation of each of the neighbors."
   }
 }
