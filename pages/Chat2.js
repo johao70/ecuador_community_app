@@ -21,7 +21,7 @@ export default class Chat2Screen extends Component {
       <View style={[t.relative, t.hFull, t.wFull]}>
         <Header />
 
-        <TouchableOpacity style={[t.pT2, t.mXAuto, t.mX8]}>
+        <TouchableOpacity style={[t.pT2, t.mXAuto, t.mX8]} onPress={ () => this.props.history.push("userprofileRoger")}>
             <View style={[t.flex, t.flexRow, t.itemsCenter, t.mB4]}>
                 <Image style={[t.w16, t.h16, t.roundedFull, t.mR4]} source={ pic1 } />
                 <View style={[t.textLg]}>

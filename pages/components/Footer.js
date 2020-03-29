@@ -18,7 +18,7 @@ class Footer extends Component {
         <View style={[t.h12, t.wFull, t.bgBlue600, t.pB2, t.justifyCenter]}>
             <ScrollView vertical={true}>
               <View style={[t.flex, t.flexRow, t.mT2, t.justifyBetween]}>
-                <TouchableOpacity style={[t.mL4]} onPress={ () => this.props.history.push("") }>
+                <TouchableOpacity style={[t.mL4]} onPress={ () => this.props.history.push("userprofileJohao") }>
                   <IconFontAwesome name="user-circle-o" style={[t.text4xl]} />
                 </TouchableOpacity>
                 <TouchableOpacity onPress={ () => this.props.history.push("chat1") }>

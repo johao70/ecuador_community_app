@@ -62,7 +62,6 @@ export default class Chat1Screen extends Component {
                             <Text style={[t.textBlack]}>Susana Lipton</Text>
                             <View style={[t.flex, t.flexRow]}>
                                 <Text style={[t.textBlack]}>I love you too :3</Text>
-                                {/* <Text style={[t.mL4, t.roundedFull, t.bgGreen300, t.fontBold, t.pX2]}>1</Text> */}
                             </View>
                         </View>
                     </View>
