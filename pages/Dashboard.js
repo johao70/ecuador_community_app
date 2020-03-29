@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, Image, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, Image, ScrollView } from 'react-native';
 import { t } from 'react-native-tailwindcss';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default class DashboardScreen extends Component {
   constructor(props) {
@@ -16,11 +17,11 @@ export default class DashboardScreen extends Component {
     const example2 = require("../assets/1.jpeg")
     return (
       <View style={[t.relative, t.hFull, t.wFull]}>
-        <Navbar />
+        <Header />
         <ScrollView vertical={true}>
           <View style={[t.itemsCenter]}>
-            <Text style={[t.textXl, t.fontBold, t.mT4]}>Noticias: Barrio San Blas</Text>
-            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4]}>
+            <Text style={[t.textXl, t.fontBold, t.mL4, t.mT2]}>Barrio: San Blas (Quito, Ecuador)</Text>
+            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4, t.pX4]}>
               <Image style={[t.h64, t.wAuto, t.pX6, t.pY4]} source={ example1 } />
               <View style={[t.pX6, t.pY2]}>
                 <View style={[t.fontBold, t.textXl, t.mB2]}>
@@ -31,7 +32,7 @@ export default class DashboardScreen extends Component {
                 </View>
               </View>
             </View>
-            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4]}>
+            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4, t.pX4]}>
               <Image style={[t.h64, t.wAuto, t.pX6, t.pY4]} source={ example2 } />
               <View style={[t.pX6, t.pY2]}>
                 <View style={[t.fontBold, t.textXl, t.mB2]}>
@@ -42,7 +43,7 @@ export default class DashboardScreen extends Component {
                 </View>
               </View>
             </View>
-            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4]}>
+            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4, t.pX4]}>
               <Image style={[t.h64, t.wAuto, t.pX6, t.pY4]} source={ example1 } />
               <View style={[t.pX6, t.pY2]}>
                 <View style={[t.fontBold, t.textXl, t.mB2]}>
@@ -53,7 +54,7 @@ export default class DashboardScreen extends Component {
                 </View>
               </View>
             </View>
-            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4]}>
+            <View style={[t.rounded, t.overflowHidden, t.shadowLg, t.mY, t.pY4, t.pX4]}>
               <Image style={[t.h64, t.wAuto, t.pX6, t.pY4]} source={ example2 } />
               <View style={[t.pX6, t.pY2]}>
                 <View style={[t.fontBold, t.textXl, t.mB2]}>
@@ -66,6 +67,7 @@ export default class DashboardScreen extends Component {
             </View>
           </View>
         </ScrollView>
+        <Footer />
       </View>
     );
   }
